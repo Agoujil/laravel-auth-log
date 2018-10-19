@@ -1,5 +1,5 @@
 {
-    "name": "Agoujil/laravel-auth-log",
+    "name": "agoujil/laravel-auth-log",
     "description":"Log users login/logout activity",
     "authors": [
         {
