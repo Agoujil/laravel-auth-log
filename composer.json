@@ -11,10 +11,7 @@
     "autoload": {
         "psr-4": {
             "Agoujil\\LaravelAuthLog\\": "src"
-        },
-        "files": [
-            "helpers.php"
-        ]
+        }
     },
 
     "require": {
