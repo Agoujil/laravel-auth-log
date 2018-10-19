@@ -1,5 +1,5 @@
 <?php
-namespace Agodev\LaravelAuthLog;
+namespace Agoujil\LaravelAuthLog;
 
 use Illuminate\Support\Facades\Event;
 
@@ -17,10 +17,10 @@ class AuthLogServiceProvider extends ServiceProvider
 
     protected $listen = [
         'Illuminate\Auth\Events\Login' => [
-            'Agodev\LaravelAuthLog\Listeners\LoginListener',
+            'Agoujil\LaravelAuthLog\Listeners\LoginListener',
         ],
         'Illuminate\Auth\Events\Logout' => [
-            'Agodev\LaravelAuthLog\Listeners\LogoutListener',
+            'Agoujil\LaravelAuthLog\Listeners\LogoutListener',
         ],
     ];
 

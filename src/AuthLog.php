@@ -1,5 +1,5 @@
 <?php
-namespace Agodev\LaravelAuthLog;
+namespace Agoujil\LaravelAuthLog;
 
 use Illuminate\Database\Eloquent\Model;
 

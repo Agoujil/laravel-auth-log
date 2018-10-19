@@ -1,10 +1,10 @@
 <?php
 
-namespace Agodev\LaravelAuthLog\Listeners;
+namespace Agoujil\LaravelAuthLog\Listeners;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
-use Agodev\LaravelAuthLog\AuthLog;
+use Agoujil\LaravelAuthLog\AuthLog;
 use Illuminate\Auth\Events\Logout;
 
 

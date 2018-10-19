@@ -1,11 +1,11 @@
 <?php
 
-namespace Agodev\LaravelAuthLog\Listeners;
+namespace Agoujil\LaravelAuthLog\Listeners;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Auth\Events\Login;
-use Agodev\LaravelAuthLog\AuthLog;
+use Agoujil\LaravelAuthLog\AuthLog;
 
 class LoginListener{
 
@@ -33,7 +33,7 @@ class LoginListener{
      */
     public function handle(Login $event)
     { 
-        $_authLog = new \Agodev\LaravelAuthLog\AuthLog();
+        $_authLog = new \Agoujil\LaravelAuthLog\AuthLog();
         $_authLog->ip_address=$this->request->ip();
         $_authLog->user_agent=$this->request->userAgent();
         $_authLog->login_at=Carbon::now();

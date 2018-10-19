@@ -1,5 +1,5 @@
 {
-    "name": "AgoDev/laravel-auth-log",
+    "name": "Agoujil/laravel-auth-log",
     "description":"Log users login/logout activity",
     "authors": [
         {
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Agodev\\LaravelAuthLog\\AuthLogServiceProvider"
+                "Agoujil\\LaravelAuthLog\\AuthLogServiceProvider"
             ]
         }
     }
