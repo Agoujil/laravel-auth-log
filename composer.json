@@ -1,5 +1,5 @@
 {
-    "name": "Agoujil/laravel-auth-log",
+    "name": "agoujil/laravel-auth-log",
     "description":"Log users login/logout activity",
     "authors": [
         {
@@ -7,6 +7,16 @@
             "email": "mouhcin.agoujil@gmail.com"
         }
     ],
+
+    "autoload": {
+        "psr-4": {
+            "Agoujil\\LaravelAuthLog\\": "src"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+
     "require": {
         "php": ">=7.1"
     },
